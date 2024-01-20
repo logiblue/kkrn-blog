@@ -176,7 +176,17 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-
+add_action('wp_head', 'local_space_cat');
+function local_space_cat() {
+    // Other possible values: 'production' 'staging' 'development'
+	if ( 'local' === wp_get_environment_type() ) { ?>
+		<style>
+			body {
+				background-color:red !important ;
+			}
+		</style>
+	<?php }
+}
 
 
 // Automatic theme updates from the GitHub repository
