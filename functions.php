@@ -180,6 +180,7 @@ add_action('wp_head', 'local_space_cat');
 function local_space_cat() {
     // Other possible values: 'production' 'staging' 'development'
 	if ( 'local' === wp_get_environment_type() ) { ?>
+	<?php //var_dump(wp_get_enviroment_type()); ?>
 		<style>
 			div#wpadminbar {
 				background-color:blue !important ;
