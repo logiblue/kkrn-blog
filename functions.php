@@ -181,8 +181,8 @@ function local_space_cat() {
     // Other possible values: 'production' 'staging' 'development'
 	if ( 'local' === wp_get_environment_type() ) { ?>
 		<style>
-			body {
-				background-color:red !important ;
+			div#wpadminbar {
+				background-color:blue !important ;
 			}
 		</style>
 	<?php }
