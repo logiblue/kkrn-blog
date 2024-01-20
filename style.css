@@ -1014,7 +1014,7 @@ html {
 --------------------------------------------------------------*/
 .container{
 	width:100%;
-	max-width:850px;
+	max-width:750px;
 	margin:0 auto;
 }
 .text-center{
