@@ -15,5 +15,5 @@ jobs:
         username: ${{ secrets.SECRET_FTPNAME}}
         password: ${{ secrets.SECRET}}
         port: 22
-        protocol: sftp
+        protocol: ftps-legacy
         log-level: standard
