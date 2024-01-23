@@ -14,4 +14,6 @@ jobs:
         server: ${{ secrets.SECRET_SERVER}}
         username: ${{ secrets.SECRET_FTPNAME}}
         password: ${{ secrets.SECRET}}
-        log-level: standard
+        protocol: ftps
+        port: 21
+        log-level: verbose
