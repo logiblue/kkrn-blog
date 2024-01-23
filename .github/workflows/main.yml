@@ -14,3 +14,7 @@ jobs:
         server: ${{ secrets.SECRET_SERVER}}
         username: ${{ secrets.SECRET_FTPNAME}}
         password: ${{ secrets.SECRET}}
+        port: 22
+        protocol: sftp
+        log-level: standard
+        dry-run: true
