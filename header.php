@@ -28,6 +28,6 @@
 	<header id="masthead" class="site-header">
 		<div class="site-header__container">
 			<div class="site-header__img-cpt"></div>
-			<h5>Konstantinos Karanikolas</h5>
+			<h5>Konstantinos Karanikolas 1992</h5>
 		</div>
 	</header><!-- #masthead -->
