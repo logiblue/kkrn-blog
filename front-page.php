@@ -3,10 +3,11 @@
 
 
 
-    <div class="intro">
-        <p class="intro___text text-center">
-        Made Basecamp and HEY for the underdogs as co-owner and CTO of 37signals. Created Ruby on Rails. Wrote REWORK, It Doesn't Have to Be Crazy at Work, and REMOTE. Won at Le Mans as a racing driver. Fought the big tech monopolies as an antitrust advocate. Invested in Danish startups.
+    <div class="intro center">
+        <p class="center fw-300 fs-small mxw-700 moa">
+        I help businesses of all sizes to shape their digital presence. I've crafted websites for the last 5 years mostly working on WordPress and PHP. I love good design and adore simple and effective solutions. Always learning and expriment on different stuff. I've volunteered on multiple NGO's get online and make an impact on their actions.
         </p>
+        <a class="center touch" href="mailto:hey@kkrn.work">GET IN TOUCH</a>
 
     </div>
     <div class="posts">

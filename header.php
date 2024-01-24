@@ -28,8 +28,9 @@
 
 	<header id="masthead" class="site-header container center">
 		<div class="site-header__container">
-			<div class="site-header__img-cpt"></div>
-			<img src="<?php echo get_bloginfo('url') ?>/wp-content/themes/kkrn/images/kk.webp" alt="">
-			<a href="<?php echo get_bloginfo('url') ?>/wp-content/themes/kkrn/images/kk.webp"><h6>Konstantinos Karanikolas</h6>
+			<a href="/">
+				<img src="<?php echo get_bloginfo('url') ?>/wp-content/themes/kkrn/images/kk.webp" alt="">
+				<h6 class="fw-300 fs-medium">Konstantinos Karanikolas</h6>
+			</a>
 		</div>
 	</header><!-- #masthead -->
