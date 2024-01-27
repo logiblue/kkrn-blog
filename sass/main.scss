@@ -1,0 +1,16 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+$container-max-widths: (
+  sm: 550px,
+  md: 550px,
+  lg: 650px,
+  xl: 700px,
+  xxl: 750px
+);
+
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,38 +1,20 @@
-:root {
-  --primary: #e4cd36;
-}
-.center{
-	text-align: center;
-}
-.touch{
-	text-align: center;
-	margin-top: 15px;
-	font-weight: bold;
-	font-size: 16px;
-	display: inline-block;
-	width: fit-content;
-	padding:10px 16px;
-	border-radius: 20px;
-	border: 2px solid #4b4b4b;;
-}
-/* .fw-300{
-	font-weight: 300;
-}
-.fs-medium{
-	font-size: 25px !important;
-	letter-spacing: 2px;
-	font-weight: 100;
-	margin-bottom: 10px;
-}
-.fs-small{
-	font-size: 17px !important;
-} */
-.mxw-700{
-	max-width: 700px;
-}
-.moa{
-	margin: 0 auto;
-}
-.site-header__img-cpt{
-	background-image: url('../kkkrn');
-}
+/*
+Theme Name: KKRN BLOG
+Theme URI: https://blog.kkrn.work
+Author: Karanikolas Konstantinos
+Author URI: https://kkrn.work/
+Description: Custom WP Theme for my personal blog
+Tags: blo
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url("../kkkrn/main.css");
+
+

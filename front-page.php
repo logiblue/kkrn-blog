@@ -1,7 +1,6 @@
 <?php get_header(); ?>
-<div class="container">
 
-
+<div class="container-xl">
 
     <div class="intro center">
         <p class="center fw-300 fs-small mxw-700 moa">
